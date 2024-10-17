@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "2a7b6b0f-b859-4df7-b903-ef7fd584e698",
+		"name": "api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19468060"
+	},
+	"item": [
+		{
+			"name": "Random",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/random",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fraud",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/fraud",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"fraud"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/valid",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"valid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "V4",
+							"value": " -0.0126111263573025",
+							"type": "text"
+						},
+						{
+							"key": "V10",
+							"value": " -0.117023457667348",
+							"type": "text"
+						},
+						{
+							"key": "V11",
+							"value": " -1.33853740827173",
+							"type": "text"
+						},
+						{
+							"key": "V12",
+							"value": " 0.242566590950623",
+							"type": "text"
+						},
+						{
+							"key": "V14",
+							"value": " 0.361455603679332",
+							"type": "text"
+						},
+						{
+							"key": "V17",
+							"value": " -0.802255915656546",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
